@@ -2,17 +2,6 @@ import java.util.*;
 
 public class Teste {
 
-    public static void main(String[] args) {
-        //questao10();
-        Set<String> lista = new HashSet<>();
-        lista.add("a");
-        lista.add("b");
-        Iterator<String> it = lista.iterator();
-        int i = 0;
-        //ConcatERemove("arz", "arz", 8);
-
-    }
-
     public static void ConcatERemove(String s, String t, int k) {
         System.out.println(s);
         System.out.println(t);
